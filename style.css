@@ -13,7 +13,7 @@ body {
 
 .btn{
     background-color: #24292F;
-    color: #59534D;
+    color: #B6C7D5;
     border: 1px solid #59534D;
     border-radius: 1rem;
     padding: 0.5rem 1rem;
@@ -21,6 +21,16 @@ body {
     cursor: pointer;
     margin-left: 45%;
     margin-top:10%;
+}
+
+.delete {
+    background-color: #24292F;
+    color: #B6C7D5;
+    border: 1px solid #59534D;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
 }
 
 .container{
@@ -32,11 +42,30 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
+    justify-content: center;
+    border-radius: 1rem;
 }
 
 .book{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     background-color: #24292F;
     text-align: center;
     border: 1px solid #59534D;
     border-radius: 1rem;
+    color: #B6C7D5;
+}
+
+.state-button{
+    background-color: #24292F;
+    border: 1px solid #59534D;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+}
+
+.active {
+    background-color: #59534D !important;
 }
