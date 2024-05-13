@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1B1F25;
+    color: #59534D;    
+}
+
+.btn{
+    background-color: #24292F;
+    color: #59534D;
+    border: 1px solid #59534D;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: 45%;
+    margin-top:10%;
+}
+
+.container{
+    margin: 5rem 10%;
+    padding: 1rem;
+    width: 80%;
+    height: 80%;
+    border: 1px solid #59534D;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.book{
+    background-color: #24292F;
+    text-align: center;
+    border: 1px solid #59534D;
+    border-radius: 1rem;
+}
